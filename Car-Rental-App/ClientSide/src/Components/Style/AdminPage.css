@@ -1,0 +1,123 @@
+#img-container{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px  15px 0px  0px;
+}
+#car-container{
+    height:280px ;
+    width: 400px;
+ 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+
+}
+hr{
+    margin-top: 5px;
+  
+}
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 100px;
+    
+
+}
+#car-img{
+    height: 100%;
+}
+#name-container-of-the-file-data{
+    display: flex;
+    justify-content: space-between;
+
+}
+#date-container-of-the-file-data-date{
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+
+}
+#available-date-of-sata-of-the-page{
+    color: rgb(174, 164, 164);
+    font-size: small;
+   
+}
+#milage-of-my-admin-page-details{
+    color: rgb(83, 189, 202);
+}
+#person-of-admin-page-in-my-page{
+    color: rgb(157, 144, 144);
+    font-weight: 500;
+}
+#btn-add-car{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(83, 189, 202);
+    color: white;
+    border-color:rgb(83, 189, 202);
+  
+}
+#welcome-to-admin-page{
+    margin-left: 120px;
+    margin-top: 70px;
+    color:rgb(83, 189, 202);
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
+}
+#info{
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+#add-car{
+    display: flex;
+    
+}
+#btn-add-car-link{
+    margin-left: 70%;   
+}
+#date-avalable-from-till-data-of-the-admin-page{
+    font-size: large;
+    font-weight: bold;
+   
+}
+#main-container-of-the-addmin-page{
+    padding-bottom: 20px;
+}
+#admin-page-main-home{
+    padding-bottom: 400px;
+    
+}
+#display-message-on-the-admin-pag-for-the-err{
+    text-align: center;
+    border: 2px solid rgba(238,94,104,255);;
+    width: 30%;
+    margin-left: 35%;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgba(238,94,104,255);;
+}
+#button-ok-for-th-delee-things{
+    border: 2px solid rgba(238,94,104,255);;
+    margin-left:20px;
+    background-color: rgba(238,94,104,255);;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

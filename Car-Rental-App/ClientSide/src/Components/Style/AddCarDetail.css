@@ -1,0 +1,209 @@
+#main-container-of-form{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+.data-form-flex{
+    display: flex;
+    gap:50px;
+    width: 100%;
+    
+}
+#left-side-form{
+    width: 40%;
+    margin-left: 8%;
+    border-right: 2px solid gray;
+    
+
+}
+input{
+    height: 30px;
+    width: 90%;
+    margin-top: 10PX;
+    font-size: medium;
+    font-weight:lighter;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.date-input,#per-km,.select-things{
+    width: 180px;
+    height: 30px;
+    margin-top: 10PX;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.km{
+    font-weight: normal;
+}
+.input-gap-bottom{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#text-area-description{
+    width: 90%;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 10px ; 
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#per-km{
+    font-size: larger;
+    font-weight: bolder;
+}
+#name-of-car-detail{
+    margin-left: 12%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    
+
+}
+#btn-cancle-add-detail{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color:rgb(83, 189, 202);
+
+}
+#image-add-in-add-user-form{
+  padding-bottom: 20px;
+  border-radius: 5px;
+  
+}
+#right-side-form{
+    width: 40%;
+    padding-left: 40px;
+
+}
+#add-image-in-car-details{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    color:rgb(83, 189, 202);
+    background-color: rgb(255, 255, 255);
+}
+#imgs-add-car-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 130px;
+    border-radius: 5px;
+    
+    
+}
+.img-sort-box{
+    height: 100px;
+    width: 90px;
+    background-color: rgb(159, 99, 99);
+    border-radius: 5px;
+}
+.car-detail-description{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#btn-cancle-add-detail-container{
+    display: flex;
+    width: 100%;
+    margin-left: 8%; 
+    justify-content: space-between;
+    margin-right: 8%;
+}
+#btn-Add-add-detail-ans-save{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(83, 189, 202);
+    border-color:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    margin-right:20% ;
+   
+}
+#buttons-for-add-cancle{
+    width: 240px;
+}
+#form-add-car-details{
+    margin-left: 60px;
+    width: 90%;
+    box-shadow: 1px 1px 5px rgb(20, 20, 20);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 35px;
+    background-image: url("../images/TealBG.jpg");
+    background-color:rgb(83, 189, 202);
+    color: rgb(255, 255, 255);
+    
+}
+.btn-Add-add-detail-ans-save{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(83, 189, 202);
+    background-color: rgb(255, 255, 255);
+
+
+}
+#delete-btn-for-edit-page{
+    margin-left: 550px;
+    background-color: rgba(238,94,104,255);
+}
+.save-btn-details{
+    margin-right: 10%;
+}
+#name-of-car-detail-edit{
+    margin-left: 8%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    
+   
+}
+input:focus, textarea:focus{
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    font-size: large;
+    
+}
+textarea{
+    font-size: large;
+    font-weight: bold;
+}
+#preview-img-of-the-file{
+    height: 100%;
+}
+#form-main-container-and-main-block{
+    margin-bottom: 200px;
+}
+
+#name-of-car-detail-edit{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+h2{
+    color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
